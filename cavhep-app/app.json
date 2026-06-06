@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "CAVHEP ReproChoice AI",
+    "slug": "cavhep-reprochoice",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "scheme": "cavhep",
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#1E5631"
+    },
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "org.cavhep.reprochoice"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundColor": "#1E5631"
+      },
+      "package": "org.cavhep.reprochoice"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-font",
+      "expo-splash-screen"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "9773d0f8-9c90-4bfd-bc54-015f5a38d2d5"
+      }
+    }
+  }
+}
