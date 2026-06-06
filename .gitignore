@@ -1,0 +1,34 @@
+# Dependances
+node_modules/
+
+# Fichiers temporaires et documents de travail
+*.docx
+*.pptx
+*.pdf
+*.png
+*.jpg
+*.jpeg
+
+# Sauf les assets de l'app
+!cavhep-app/assets/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+
+# Variables d'environnement
+.env
+.env.local
+.env.production
+
+# Build
+dist/
+build/
+
+# Expo
+.expo/
